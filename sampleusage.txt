@@ -1,0 +1,4 @@
+python apiconsume.py -h
+python apiconsume.py http://api.axfrcheck.com/api/domain/openssl.org
+python apiconsume.py http://api.axfrcheck.com/api/domain/openssl.org --method post
+python apiconsume.py http://api.axfrcheck.com/api/domain/openssl.org -m post
