@@ -12,7 +12,7 @@ def send_get(url, method="GET"):
         response = getattr(requests, method)(url)
         return response.json()
     except:
-        return "{\"error_code\":\"X04C\",\"message\":\"No internet connection\"}"  
+        return {"error_code":"X04C", "message":"No internet connection"}
 
 def main():
 
